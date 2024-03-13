@@ -231,6 +231,38 @@
     }
     /* end Página sobre */
 
+    /* Página serviços */
+    .serviços h3{
+        text-align: center;
+    }
+    .serviços .container > p{
+        text-align: center;
+    }
+    .serviços .rows-cards{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .serviços .row-card-item{
+        background-color: #d3e6fd;
+        width: 350px;
+        padding: 20px;
+        border-radius: 14px;
+        margin: 20px;
+        transition: 0.3s;
+    }
+    .serviços .row-card-item:hover{
+        background-color: #4f9cf9;
+    }
+    .serviços .row-card-item img{
+        background-color: #4f9cf9;
+        border-radius: 14px;
+        width: 70px;
+        padding: 9px;
+    }
+    /* end Página serviços */
+
     @media (max-width: 830px){
         /* menu mobile */
         .ul{
