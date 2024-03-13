@@ -255,11 +255,21 @@
     .serviços .row-card-item:hover{
         background-color: #4f9cf9;
     }
+    .serviços .row-card-item:hover p{
+        color: white;
+    }
     .serviços .row-card-item img{
         background-color: #4f9cf9;
         border-radius: 14px;
         width: 70px;
         padding: 9px;
+    }
+    .serviços .row-card-item p.nome-serviço{
+        margin: 5px 0;
+        transition: 0.3s;
+    }
+    .serviços .row-card-item p.descricao-servico{
+        transition: 0.3s;
     }
     /* end Página serviços */
 
