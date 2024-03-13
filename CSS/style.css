@@ -179,3 +179,16 @@
     .depoimentos .card-item:hover .estrelas i{
         color: white;
     }
+    /* footer */
+    .footer{
+        background-color: #4f9cf9;
+        text-align: center;
+    }
+    .footer i{
+        color: #4f9cf9;
+        font-size: 19px;
+        background-color: white;
+        padding: 10px;
+        margin: 3px;
+        border-radius: 10px;
+    }
