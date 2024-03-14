@@ -146,6 +146,7 @@
     .cards{
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .depoimentos .card-item{
         background-color: #d3e6fd;
@@ -399,5 +400,65 @@
             position: absolute;
             top: 46px;
             right: 28px;
+        }
+        /* Página home responsivo */
+        .faça-mais .faça-mais-test{
+            margin-top: 10px;
+            padding: 0 20px;
+            order: 1;
+        }
+        .faça-mais .container{
+            flex-direction: column;
+        }
+        .faça-mais .faça-mais-test h3{
+            font-size: 48px;
+        }
+        .faça-mais .faça-mais-test,
+        .faça-mais .faça-mais-img{
+            width: 100%;
+        }
+        /* Banner home responsivo */
+        .banner .banner-text{
+            padding: 0;
+            margin: 80px;
+        }
+        .banner .banner-text h1{
+            font-size: 80px;
+        }
+        .banner .banner-text p{
+            font-size: 15px;
+        }
+        .depoimentos .card-item{
+            width: 100%;
+        }
+        /* Página sobre responsivo */
+        .sobre .container{
+            flex-direction: column-reverse;
+        }
+        .sobre .sobre-img,
+        .sobre .sobre-text{
+            width: 100%;
+        }
+        .sobre .sobre-text{
+            margin-top: 40px;
+        }
+        /* Página contato responsivo */
+        .contato .contato-info{
+            flex-direction: column-reverse;
+        }
+        .contato-info .right-side,
+        .contato-info .left-side{
+            width: 100%;
+        }
+        .contato-info .right-side{
+            margin-bottom: 30px;
+        }
+    }
+    @media (max-width:500px){
+        .banner .banner-text h1{
+            font-size: 50px;
+        }
+        .faça-mais .faça-mais-test h3{
+            font-size: 40px;
         }
     }
