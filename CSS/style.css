@@ -366,12 +366,12 @@
         text-transform: uppercase;
         font-weight: bold;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.5s ease;
         text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     }
     
     form [type="submit"]:hover {
-        background-color: #0c3566; /* Cor mais escura ao passar o mouse */
+        background-color: #12417a; /* Cor mais escura ao passar o mouse */
     }
     
     /* Página login */
