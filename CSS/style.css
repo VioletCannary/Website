@@ -306,74 +306,147 @@
     /* end dados item */
 
     /* Página login */
-
     .fundo {
-        background-color: #1B1F27;
-        font-size: Arial, Helvetica, sans-serif;
-        overflow: hidden;
+        margin: 0;
+        font-family: 'Noto Sans', sans-serif;
     }
     
-    .area-login {
-        display: flex;
+    .fundo * {
+        box-sizing: border-box;
+    }
+    
+    .main-login {
+        width: 100vw;
         height: 100vh;
+        background: #141c3a;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    .login {
+    .left-login {
+        width: 50vw;
+        height: 100vh;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        background-color: #252A34; /* Cor mais escura para o fundo do formulário */
-        border-radius: 10px;
-        width: 355px;
-        height: 320px;
-        padding: 35px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    .login form {
-        display: flex;
-        width: 100%;
         flex-direction: column;
     }
     
-    .login input {
-        margin-top: 10px;
-        background-color: #353b47; /* Cor mais escura para o fundo dos inputs */
-        padding-left: 10px;
-        color: #CBD0F7; /* Cor do texto nos inputs */
+    .left-login > h1 {
+        font-size: 3vw;
+        color: #8fd3ff;
+    }
+    
+    .right-login {
+        width: 50vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-login {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    
+    .card-login > h1 {
+        color: #1a4d92;
+        font-weight: 800;
+        margin: 0;
+    }
+    
+    .left-login-image {
+        width: 35vw;
+    }
+    
+    .textfield {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    
+    .textfield > input {
+        width: 100%;
         border: none;
-        height: 45px;
+        border-radius: 10px;
+        padding: 15px;
+        background: #514869;
+        color: #f0ffffde;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
         outline: none;
+        box-sizing: border-box;
+    }
+    
+    .textfield > label {
+        color: #f0ffffde;
+        margin-bottom: 10px;
+    }
+    
+    .textfield > input::placeholder {
+        color: #f0ffff94;
+    }
+    
+    .btn-login {
+        width: 100%;
+        padding: 16px 0px;
+        margin: 25px;
+        border: none;
         border-radius: 8px;
-    }
-    
-    .login img {
-        width: 180px;
-        height: auto;
-    }
-    
-    input::placeholder {
-        color: #8c99af; /* Cor do placeholder */
-        font-size: 14px;
-    }
-    
-    form [type="submit"] {
-        display: block;
-        background-color: #3c4b99; /* Cor mais escura */
-        font-size: 20px;
+        outline: none;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 800;
+        letter-spacing: 3px;
+        background: #4ba1e0;
+        color: #0e3c70;
         cursor: pointer;
-        transition: background-color 0.5s ease;
-        text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 10px 40px -12px #00ff8052;
+        transition: background 0.7s ease;
+    }
+    .btn-login:hover {
+        background: #2c82b9;
+        transition: background 0.7s ease;
     }
     
-    form [type="submit"]:hover {
-        background-color: #12417a; /* Cor mais escura ao passar o mouse */
+    @media only screen and (max-width: 950px){
+        .card-login{
+            width: 85%;
+        }
     }
-    
+    @media only screen and (max-width: 600px){
+        .main-login{
+            flex-direction: column;
+        }
+        .left-login > h1{
+            display: none;
+        }
+        .left-login{
+            width: 100%;
+            height: auto;
+        }
+        .right-login{
+            width: 100%;
+            height: auto;
+        }
+        .left-login-image{
+            width: 50vw;
+        }
+        .card-login{
+            width: 90%;
+        }
+    }
     /* Página login */
 
     /* Página contato */
