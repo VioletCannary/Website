@@ -212,30 +212,37 @@
     /* end footer */
 
     /* Estilos para a seção de vídeos */
-.videos {
+    .videos {
     text-align: center;
   }
   
-  .videos h3 {
+    .videos h3 {
     margin-bottom: 20px;
   }
   
-  .videos p {
+    .videos p {
     margin-bottom: 30px;
   }
   
-  .video-container {
+    .video-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
   
-  .video-container iframe {
+    .video-container iframe {
     margin: 15px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   }
-    
+
+    .video-container iframe {
+    box-shadow: 
+      0 0 5px rgba(0, 0, 0, 0.3),
+      0 0 15px rgba(255, 255, 255, 0.8);
+  }
+    /* End Estilos para a seção de vídeos */
+
     /* Página sobre */
     .sobre .container{
         display: flex;
@@ -632,17 +639,17 @@
     /* Estilos para telas menores */
     @media (max-width: 768px) {
     .video-container iframe {
-      width: 100%; /* Os vídeos ocuparão toda a largura da tela */
+      width: 100%;
     }
   }
   
   /* Estilos para telas ainda menores */
     @media (max-width: 480px) {
     .videos h3 {
-      font-size: 32px; /* Reduz o tamanho do título */
+      font-size: 32px;
     }
   
     .video-container iframe {
-      height: 200px; /* Ajusta a altura dos vídeos */
+      height: 200px;
     }
   }
