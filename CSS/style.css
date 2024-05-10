@@ -210,6 +210,31 @@
         color: white;
     }
     /* end footer */
+
+    /* Estilos para a seção de vídeos */
+.videos {
+    text-align: center;
+  }
+  
+  .videos h3 {
+    margin-bottom: 20px;
+  }
+  
+  .videos p {
+    margin-bottom: 30px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .video-container iframe {
+    margin: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
     
     /* Página sobre */
     .sobre .container{
@@ -604,3 +629,20 @@
             font-size: 40px;
         }
     }
+    /* Estilos para telas menores */
+    @media (max-width: 768px) {
+    .video-container iframe {
+      width: 100%; /* Os vídeos ocuparão toda a largura da tela */
+    }
+  }
+  
+  /* Estilos para telas ainda menores */
+    @media (max-width: 480px) {
+    .videos h3 {
+      font-size: 32px; /* Reduz o tamanho do título */
+    }
+  
+    .video-container iframe {
+      height: 200px; /* Ajusta a altura dos vídeos */
+    }
+  }
