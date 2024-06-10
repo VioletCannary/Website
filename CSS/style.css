@@ -70,6 +70,13 @@
         font-size: 14px;
         display: block;
     }
+
+    nav a img {
+        width: 40%;
+        height: auto;
+        margin-top: 20px;
+      }
+
     nav ul a:not(.btn)::after{
         content: "";
         background-color: #4f9cf9;
