@@ -6,8 +6,9 @@
     outline: none;
     font-family: "Inter", sans-serif;
     }
-    body{
-        background-color: #f1f6fc31;
+    body {
+        background-color: #F8F9FA;
+        color: #212529;
     }
     section,footer{
         padding: 54px 0;
@@ -16,7 +17,7 @@
         font-size: 50px;
     }
     p{
-        color: #0000009c;
+        color: #6C757D;
     }
     .container{
         max-width: 1400px;
@@ -24,7 +25,7 @@
         padding: 0 5%;
     }
     .btn{
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         color: white;
         padding: 15px 20px;
         border-radius: 10px;
@@ -36,15 +37,15 @@
         animation: animate-outline 1s ease-out infinite;
     }
     .btn:hover{
-        background-color: #3580db;
+        background-color: #0069D9;
     }
     
     @keyframes animate-outline {
         from{
-            outline: 0px solid #4f9bf98a;
+            outline: 0px solid #007BFF8a;
         }
         to{
-            outline: 15px solid #4f9bf900;
+            outline: 15px solid #007BFF00;
         }
     }
     
@@ -79,7 +80,7 @@
 
     nav ul a:not(.btn)::after{
         content: "";
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         height: 3px;
         width: 0%;
         display: block;
@@ -156,7 +157,7 @@
         flex-wrap: wrap;
     }
     .depoimentos .card-item{
-        background-color: #d3e6fd;
+        background-color: #E9ECEF;
         margin: 15px;
         border-radius: 14px;
         text-align: center;
@@ -185,13 +186,13 @@
         border-top: 2px solid #71767a23;
     }
     .depoimentos .card-item .estrelas i{
-        color: #4f9cf9;
+        color: #007BFF;
         margin-top: 15px;
         font-size: 20px;
         transition: 0.3s;
     }
     .depoimentos .card-item:hover{
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         margin-top: -5px;
     }
     .depoimentos .card-item:hover .nome-user,
@@ -201,11 +202,12 @@
     }
     /* footer */
     .footer{
-        background-color: #4f9cf9;
+        background-color: #343A40;
         text-align: center;
+        color: white;
     }
     .footer i{
-        color: #4f9cf9;
+        color: #343A40;
         font-size: 19px;
         background-color: white;
         padding: 10px;
@@ -287,7 +289,7 @@
         flex-wrap: wrap;
     }
     .serviços .row-card-item{
-        background-color: #d3e6fd;
+        background-color: #E9ECEF;
         width: 350px;
         padding: 20px;
         border-radius: 14px;
@@ -295,13 +297,13 @@
         transition: 0.3s;
     }
     .serviços .row-card-item:hover{
-        background-color: #4f9cf9;
+        background-color: #007BFF;
     }
     .serviços .row-card-item:hover p{
         color: white;
     }
     .serviços .row-card-item img{
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         border-radius: 14px;
         width: 70px;
         padding: 9px;
@@ -317,7 +319,7 @@
 
     /* dados item */
     .dados{
-        background: #d3e6fd;
+        background: #E9ECEF;
     }
     .dados .container{
         display: flex;
@@ -330,7 +332,7 @@
         color: #000000be;
     }
     .dados .dados-item img{
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         border-radius: 14px;
         padding: 10px;
         margin-bottom: 15px;
@@ -497,10 +499,11 @@
     .contato-info .left-side{
         width: 50%;
         padding: 30px;
-        background-color: #4f9cf9;
+        background-color: #007BFF;
         border-radius: 14px;
         margin-right: 50px;
         height: fit-content;
+        color: white;
     }
     .contato-info .left-side div{
         display: flex;
@@ -527,17 +530,17 @@
         padding: 15px;
         border-radius: 9px;
         transition: 0.3s;
-        border: 1px solid #f1f1f1;
-        color: #212121;
+        border: 1px solid #CED4DA;
+        color: #495057;
         font-weight: lighter;
     }
     .contato-info .right-side input:focus,
     .contato-info .right-side textarea:focus{
-        border-color: #4f9cf9;
+        border-color: #007BFF;
     }
     .contato-info .right-side textarea{
-        border: 1px solid #f1f1f1;
-        color: #212121;
+        border: 1px solid #CED4DA;
+        color: #495057;
         border-radius: 9px;
         margin-bottom: 10px;
         padding: 15px;
