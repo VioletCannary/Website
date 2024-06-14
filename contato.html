@@ -53,7 +53,7 @@
                     <div class="left-side">
                         <div>
                             <i class="fa fa-map-marker"></i>
-                            <p>Estação Berrini</p>
+                            <p>Estação Berrini, São Paulo - SP</p>
                         </div>
                         <div>
                             <i class="fa fa-envelope"></i>
@@ -61,18 +61,28 @@
                         </div>
                         <div>
                             <i class="fa fa-phone-square"></i>
-                            <p>011 5128-5157</p>
+                            <p>(11) 5128-5157</p>
                         </div>
                     </div>
                     <div class="right-side">
-                        <form action="">
-                            <input type="text" placeholder="Nome" required>
-                            <input type="email" placeholder="E-mail" required>
-                            <input type="text" placeholder="Assunto" required>
-                            <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
-                            <button class="btn">Enviar Mensagem</button>
+                        <form id="form-contato" action="#">
+                            <input type="text" id="nome" placeholder="Nome" required>
+                            <div id="erro-nome" class="erro-mensagem"></div> 
+                            <input type="email" id="email" placeholder="E-mail" required>
+                            <div id="erro-email" class="erro-mensagem"></div> 
+                            <input type="text" id="assunto" placeholder="Assunto" required>
+                            <div id="erro-assunto" class="erro-mensagem"></div> 
+                            <textarea id="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                            <div id="erro-mensagem" class="erro-mensagem"></div>
+                            <button class="btn" type="submit">Fale Conosco Agora</button>
                         </form> 
                     </div>
+                </div>
+            </div>
+            <div id="sobretela" class="sobretela">
+                <div class="mensagem">
+                    <p id="mensagem-sucesso"></p>
+                    <button id="fechar-sobretela" class="btn">Fechar</button>
                 </div>
             </div>
         </section>
