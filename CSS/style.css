@@ -654,61 +654,59 @@ nav .close-icon {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo mais escuro */
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 100; 
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff; /* Cor do texto da sobretela */
+    color: #ffffff;
 }
 
 .sobretela .mensagem {
-    /* Estilização da mensagem */
-    background-color: #222831; /* Cinza escuro */
+    background-color: #222831;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     max-width: 400px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .sobretela .mensagem p {
-    color: #fff; /* Branco */
+    color: #fff;
     font-size: 18px;
     margin-bottom: 15px;
-    font-weight: bold; /* Negrito para o texto */
+    font-weight: bold;
     width: 100%;
 }
 
 .sobretela .mensagem button {
-    /* Estilização do botão */
-    background-color: #36454F; /* Cinza médio */
-    color: #fff; /* Cor do texto do botão */
+    background-color: #36454F;
+    color: #fff;
     border: none;
-    padding: 15px 20px; /* Mesma padding do botão "Fale Conosco Agora" */
-    border-radius: 10px; /* Mesma borda arredondada do botão "Fale Conosco Agora" */
+    padding: 15px 20px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 16px; 
-    transition: background-color 0.3s ease; /* Transição suave para o hover */
+    transition: background-color 0.3s ease;
     width: 100%;
-    margin-top: 10px; /* Adiciona um espaçamento acima do botão */
-    font-weight: 800; /* Mesma fonte do botão "Fale Conosco Agora" */
-    text-transform: uppercase; /* Letras maiúsculas */
-    box-shadow: 0px 10px 40px -12px #00ff8052; /* Adiciona a sombra do botão */
+    margin-top: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
 .sobretela .mensagem button:hover {
-    background-color: #222831; /* Cinza escuro */
+    background-color: #222831;
 }
 
 .erro-mensagem {
-    color: red; /* Define a cor do texto da mensagem de erro */
-    font-size: 14px; /* Define o tamanho da fonte */
-    margin-bottom: 5px; /* Adiciona um espaçamento entre a mensagem e o próximo elemento */
-    display: none; /* Esconde a mensagem por padrão */
+    color: red;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: none;
 }
 /* end sobretela contato */
 
