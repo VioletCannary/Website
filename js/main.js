@@ -59,13 +59,16 @@ formContato.addEventListener('submit', function(event) {
         erroMensagem.style.display = 'none';
     }
 
-    // Aqui você pode implementar a lógica para enviar os dados do formulário para o servidor
-    // Exemplo simples:
-    mensagemSucesso.textContent = 'Mensagem enviada com sucesso!';
-    sobretela.style.display = 'flex'; 
+    // Simula o envio da mensagem (substitua por sua lógica real)
+    setTimeout(() => {
+        // Simula o sucesso do envio (substitua por sua lógica real)
+        // Assuma que a mensagem foi enviada com sucesso
+        mensagemSucesso.textContent = 'Mensagem enviada com sucesso!';
+        sobretela.style.display = 'flex'; // Exibe a sobretela APENAS SE a mensagem foi enviada
 
-    // Limpa o formulário após o envio
-    formContato.reset();
+        // Limpa o formulário após o envio
+        formContato.reset();
+    }, 1000); // Aguarda 1 segundo para simular o envio
 });
 
 fecharSobretela.addEventListener('click', function() {
