@@ -68,7 +68,7 @@ formContato.addEventListener('submit', function(event) {
 
         // Limpa o formulário após o envio
         formContato.reset();
-    }, 1000); // Aguarda 1 segundo para simular o envio
+    }, 500); // Aguarda 1 segundo para simular o envio
 });
 
 fecharSobretela.addEventListener('click', function() {

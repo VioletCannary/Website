@@ -623,6 +623,11 @@ nav .close-icon {
     border-color: #007BFF;
 }
 
+input::placeholder, textarea::placeholder { 
+    color: #6C757D;
+    font-weight: bold;
+}
+
 .contato-info .right-side textarea {
     border: 1px solid #CED4DA;
     color: #495057;
