@@ -625,7 +625,7 @@ nav .close-icon {
 
 input::placeholder, textarea::placeholder { 
     color: #6C757D;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .contato-info .right-side textarea {
@@ -637,6 +637,21 @@ input::placeholder, textarea::placeholder {
     width: 100%;
     transition: 0.3s;
     resize: none;
+}
+
+.contato-info .right-side #nome {
+    color: #495057;
+    font-weight: normal;
+}
+
+.contato-info .right-side #email {
+    color: #495057;
+    font-weight: normal;
+}
+
+.contato-info .right-side #assunto {
+    color: #495057;
+    font-weight: normal;
 }
 
 .contato-info .right-side button {
